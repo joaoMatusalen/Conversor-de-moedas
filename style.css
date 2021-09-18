@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 500px;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F243%2F24313.jpg&f=1&nofb=1');
+  background-color: #000000;
+  background-size: 100vw;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+div {
+  border: solid 1px white;
+  background: black;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 60vh;
+  width: auto;
+  align-items: center;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  margin-left: 5px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-right: 4px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+  transition: 0.4s;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
